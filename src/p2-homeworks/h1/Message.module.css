@@ -1,0 +1,17 @@
+.message {
+    background-color: greenyellow;
+    width: 400px;
+    height: 200px;
+    border-radius: 30px;
+    display: inline-block;
+
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-left: 40px;
+    margin-top: 40px;
+
+}
