@@ -1,11 +1,10 @@
 .message {
-    background-color: green;
-    color: lightpink;
+    background-color: lightskyblue;
+    color: gray;
     width: 400px;
     height: 200px;
     border-radius: 30px;
     display: inline-block;
-
 }
 
 .img {
