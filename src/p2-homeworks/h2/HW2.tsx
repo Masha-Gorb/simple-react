@@ -20,7 +20,7 @@ export const filterAffairs = (affairs: any, filter: any): any => { // need to fi
     if (filter === 'all') return affairs
     else return // need to fix
 }
-export const deleteAffair = (affairs: any, _id: any): any => { // need to fix any
+export const deleteAffair = (affairs: any, _id: number): any => { // need to fix any
     return // need to fix
 }
 
