@@ -3,7 +3,7 @@ import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
     users: any // need to fix any
-    addUserCallback: any // need to fix any
+    addUserCallback: (name: string) => void // need to fix any -half done
 }
 
 // более простой и понятный для новичков
@@ -18,8 +18,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const setNameCallback = (e: any) => { // need to fix any
         setName('') // need to fix
     }
-    const addUser = () => {
-        alert(`Hello  !`) // need to fix
+    const addUser = (name: string) => {
+        alert("Hello" + name + "!") // need to fix ??  alert("Hello" + name + "!")
     }
 
     const totalUsers = 0 // need to fix
