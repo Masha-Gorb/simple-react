@@ -20,7 +20,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         setName('') // need to fix
     }
     const addUser = (name: string) => {
-        alert("Hello" + name + "!") // need to fix ??  alert("Hello" + name + "!")
+        alert("Hello !") // need to fix ??  alert("Hello" + name + "!")
     }
 
     const totalUsers = 0 // need to fix
