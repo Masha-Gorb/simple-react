@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import Greeting from './Greeting'
+import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
+    users: Array<UserType> // need to fix any
     addUserCallback: (name: string) => void // need to fix any -half done
 }
 
