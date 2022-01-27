@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import GreetingContainer from './GreetingContainer'
 import {v1} from "uuid";
+import s from './Greeting.module.css'
+
 
 // types
 export type UserType = {
@@ -15,11 +17,10 @@ function HW3() {
     const addUserCallback = (name: string) => {
         let newUser = {name: name, _id: v1()}
         setUsers([...users, newUser])
-
     }
 
     return (
-        <div>
+        <div className={s.column}>
             <hr/>
             homeworks 3
 
