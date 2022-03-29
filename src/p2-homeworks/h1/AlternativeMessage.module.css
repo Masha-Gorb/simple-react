@@ -1,5 +1,6 @@
 .message {
     display: flex;
+    flex-direction: row-reverse;
     align-items: flex-end;
     margin: 10px;
 }
@@ -12,14 +13,16 @@
 
 .content {
     padding: 10px;
-    border-radius: 5px 5px 5px 0;
-    background-color: #a1e6ff;
+    border-radius: 5px 5px 0px 5px;
+    background-color: #c2ffa6;
 }
 
 .angle {
+    display: flex;
+    flex-direction: row-reverse;
     width: 15px;
     height: 15px;
-    background: radial-gradient(circle at 0 0, rgb(255, 255, 255) 15px, rgb(161, 230, 255) 0);
+    background: radial-gradient(circle at right top, rgb(255, 255, 255) 15px, rgb(194, 255, 166) 0px);
 }
 
 .name{
