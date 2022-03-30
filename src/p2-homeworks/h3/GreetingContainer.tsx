@@ -3,8 +3,8 @@ import Greeting from './Greeting'
 import {UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-    users: Array<UserType> // need to fix any
-    addUserCallback: (name: string) => void // need to fix any -half done
+    users: UserType[]
+    addUserCallback: (name: string) => void
 }
 
 // более простой и понятный для новичков
